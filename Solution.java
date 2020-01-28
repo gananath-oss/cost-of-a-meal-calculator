@@ -15,7 +15,7 @@ public class Solution {
 
         double totatCost = meal_cost + meal_cost*tip_percent/100 + meal_cost*tax_percent/100;
         int totatCostRounde = (int) Math.round(totatCost);
-
+        System.out.println("This is the Food pricw calculator");
         System.out.print(totatCostRounde);
 
     }
